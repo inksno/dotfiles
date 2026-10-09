@@ -1,4 +1,4 @@
-min_version = "2026.9.17"
+min_version = "2026.10.4"
 
 [bootstrap.brew]
 adopt = true
@@ -47,6 +47,7 @@ adopt = true
 "brew-cask:anki" = "latest"
 "brew-cask:brave-browser" = "latest"
 "brew-cask:calibre" = "latest"
+"brew-cask:claude" = "latest"
 "brew-cask:codex" = "latest"
 "brew-cask:copilot-cli" = "latest"
 "brew-cask:discord" = "latest"

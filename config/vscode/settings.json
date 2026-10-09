@@ -6,87 +6,87 @@
   "editor.fontFamily": "JuliaMono, 'JetBrainsMono Nerd Font', 'Noto Sans TC', 'Noto Sans Avestan', 'Noto Sans Mono', 'Noto Sans', monospace",
   "liveServer.settings.donotVerifyTags": true,
   "[css]": {
-    "editor.defaultFormatter": "oxc.oxc-vscode"
+    "editor.defaultFormatter": "oxc.oxc-vscode",
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
+    "editor.defaultFormatter": "denoland.vscode-deno",
   },
   "[javascript]": {
-    "editor.defaultFormatter": "oxc.oxc-vscode"
+    "editor.defaultFormatter": "oxc.oxc-vscode",
   },
   "[typst]": {
     "editor.defaultFormatter": "myriad-dreamin.tinymist",
-    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
   },
   "[typescript]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
+    "editor.defaultFormatter": "denoland.vscode-deno",
   },
   "[html]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
+    "editor.defaultFormatter": "denoland.vscode-deno",
   },
   "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
+    "editor.defaultFormatter": "svelte.svelte-vscode",
   },
   "[sass]": {
-    "editor.defaultFormatter": "syler.sass-indented"
+    "editor.defaultFormatter": "syler.sass-indented",
   },
   "[fsharp]": {
-    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
+    "editor.defaultFormatter": "Ionide.Ionide-fsharp",
   },
   "[scala]": {
-    "editor.defaultFormatter": "scalameta.metals"
+    "editor.defaultFormatter": "scalameta.metals",
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "eslint.format.enable": true,
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[elm]": {
-    "editor.defaultFormatter": "elmTooling.elm-ls-vscode"
+    "editor.defaultFormatter": "elmTooling.elm-ls-vscode",
   },
   "[typst-code]": {
-    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?",
   },
   "idris2.serverRestartService.toggle": true,
   "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "[swift]": {
-    "editor.defaultFormatter": "vknabel.vscode-apple-swift-format"
+    "editor.defaultFormatter": "vknabel.vscode-apple-swift-format",
   },
   "diffEditor.experimental.showMoves": true,
   "diffEditor.codeLens": true,
   "workbench.editorAssociations": {
-    "*.svg": "default"
+    "*.svg": "default",
   },
   "[svg]": {
-    "editor.defaultFormatter": "jock.svg"
+    "editor.defaultFormatter": "jock.svg",
   },
   "lean4.alwaysAskBeforeInstallingLeanVersions": true,
   "lean4.automaticallyBuildDependencies": true,
   "docker.extension.enableComposeLanguageServer": false,
   "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
   },
   "editor.formatOnSave": true,
   "github.copilot.nextEditSuggestions.enabled": true,
   "[purescript]": {
-    "editor.defaultFormatter": "mvakula.vscode-purty"
+    "editor.defaultFormatter": "mvakula.vscode-purty",
   },
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jade]": {
-    "editor.defaultFormatter": "ducfilan.pug-formatter"
+    "editor.defaultFormatter": "ducfilan.pug-formatter",
   },
   "[astro]": {
-    "editor.defaultFormatter": "astro-build.astro-vscode"
+    "editor.defaultFormatter": "astro-build.astro-vscode",
   },
   "[haskell]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "haskell.haskell"
+    "editor.defaultFormatter": "haskell.haskell",
   },
   "haskell.manageHLS": "GHCup",
   "jupyter.enableExtendedPythonKernelCompletions": true,
@@ -100,29 +100,29 @@
   "oxc.typeAware": true,
   "claudeCode.preferredLocation": "panel",
   "[scss]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
+    "editor.defaultFormatter": "denoland.vscode-deno",
   },
   "http.systemCertificatesNode": true,
   "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
   "julia.symbolCacheDownload": true,
   "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8"
+    "editor.defaultFormatter": "ms-python.autopep8",
   },
   "[flix]": {
-    "editor.defaultFormatter": "flix.flix"
+    "editor.defaultFormatter": "flix.flix",
   },
   "deno.enable": true,
   "[tung]": {
-    "editor.defaultFormatter": "tung.tung-vscode"
+    "editor.defaultFormatter": "tung.tung-vscode",
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.editor.enablePreview": false,
   "makefile.configureOnOpen": true,
   "[toml]": {
-    "editor.defaultFormatter": "tamasfe.even-better-toml"
+    "editor.defaultFormatter": "tamasfe.even-better-toml",
   },
   "[ocaml]": {
-    "editor.defaultFormatter": "ocamllabs.ocaml-platform"
+    "editor.defaultFormatter": "ocamllabs.ocaml-platform",
   },
   "yaml.disableSchemaDetection": [
     "**/.github/workflows/*.yml",
@@ -130,6 +130,7 @@
     "**/.gitea/workflows/*.yml",
     "**/.gitea/workflows/*.yaml",
     "**/.forgejo/workflows/*.yml",
-    "**/.forgejo/workflows/*.yaml"
-  ]
+    "**/.forgejo/workflows/*.yaml",
+  ],
+  "claudeCode.hideOnboarding": true,
 }
