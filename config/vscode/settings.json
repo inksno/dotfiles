@@ -76,7 +76,7 @@
     "editor.defaultFormatter": "mvakula.vscode-purty"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jade]": {
     "editor.defaultFormatter": "ducfilan.pug-formatter"
@@ -103,9 +103,7 @@
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
   "http.systemCertificatesNode": true,
-  "terminal.integrated.commandsToSkipShell": [
-    "language-julia.interrupt"
-  ],
+  "terminal.integrated.commandsToSkipShell": ["language-julia.interrupt"],
   "julia.symbolCacheDownload": true,
   "[python]": {
     "editor.defaultFormatter": "ms-python.autopep8"
@@ -114,7 +112,6 @@
     "editor.defaultFormatter": "flix.flix"
   },
   "deno.enable": true,
-  "haskell.formattingProvider": "fourmolu",
   "[tung]": {
     "editor.defaultFormatter": "tung.tung-vscode"
   },
@@ -126,5 +123,13 @@
   },
   "[ocaml]": {
     "editor.defaultFormatter": "ocamllabs.ocaml-platform"
-  }
+  },
+  "yaml.disableSchemaDetection": [
+    "**/.github/workflows/*.yml",
+    "**/.github/workflows/*.yaml",
+    "**/.gitea/workflows/*.yml",
+    "**/.gitea/workflows/*.yaml",
+    "**/.forgejo/workflows/*.yml",
+    "**/.forgejo/workflows/*.yaml"
+  ]
 }
