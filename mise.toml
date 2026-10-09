@@ -93,6 +93,7 @@ dotfiles.default_mode = "symlink"
 
 [tools]
 deno = "latest"
+dotnet = "latest"
 java = "latest"
 node = "latest"
 opam = "latest"
